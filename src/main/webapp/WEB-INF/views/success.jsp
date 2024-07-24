@@ -12,6 +12,15 @@
     <title>Success Registration</title>
 </head>
 <body>
-    <h1>${student}</h1>
+    <h1>Name : ${student.name}</h1>
+    <h1>id : ${student.id}</h1>
+    <h1>DOB : ${student.date}</h1>
+    <h1>Courses : ${student.courses}</h1>
+    <h1>Gender : ${student.gender}</h1>
+    <h1>Student type : ${student.type}</h1>
+    <hr>
+    <h1>Address</h1>
+    <h1>Street : ${student.address.street}</h1>
+    <h1>City : ${student.address.city}</h1>
 </body>
 </html>

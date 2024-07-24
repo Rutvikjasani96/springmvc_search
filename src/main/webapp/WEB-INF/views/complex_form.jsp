@@ -28,7 +28,7 @@
 <div class="container mt-4">
 
     <div class="row">
-        <div class="col-md-6 offset-md-3">
+        <div class="col-md-8 offset-md-2">
             <div class="card">
                 <div class="card-body">
                     <h3 class="text-center">Complex Form</h3>
@@ -92,6 +92,18 @@
                             <option value="oldstudent">Old Student</option>
                             <option value="normalstudent">Normal Student</option>
                         </select>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-body">
+                                <p>Your Address</p>
+                                <div class="form-group">
+                                    <input name="address.street" type="text" class="form-control" placeholder="Enter Street">
+                                </div>
+                                <div class="form-group">
+                                    <input name="address.city" type="text" class="form-control" placeholder="Enter City">
+                                </div>
+                            </div>
                         </div>
 
                         <div class="container text-center">

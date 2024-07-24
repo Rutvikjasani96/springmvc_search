@@ -6,10 +6,12 @@ import java.util.List;
 public class Student {
     private String name;
     private Long id;
+//    @
     private Date date;
     private List<String> courses;
     private String gender;
     private String type;
+    private Address address;
 
     public String getName() {
         return name;
@@ -59,6 +61,14 @@ public class Student {
         this.type = type;
     }
 
+    public Address getAddress() {
+        return address;
+    }
+
+    public void setAddress(Address address) {
+        this.address = address;
+    }
+
     @Override
     public String toString() {
         return "Student{" +
@@ -68,6 +78,7 @@ public class Student {
                 ", courses=" + courses +
                 ", gender='" + gender + '\'' +
                 ", type='" + type + '\'' +
+                ", address=" + address +
                 '}';
     }
 }
